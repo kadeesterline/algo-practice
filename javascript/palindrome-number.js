@@ -10,6 +10,7 @@
 // Input: x = 10
 // Output: false
 //########
+// O(n)
 
 var isPalindrome = function (x) {
   let string = x.toString();

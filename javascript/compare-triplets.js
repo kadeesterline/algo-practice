@@ -19,6 +19,7 @@
 // Input: [5, 6, 7], [3, 6, 10]
 // Output: [1, 1];
 //########
+// O(n)
 
 function compareTriplets(a, b) {
   let scores = [0, 0];

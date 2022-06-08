@@ -13,6 +13,7 @@
 //  Input: n = 5
 // Output: ["1","2","Fizz","4","Buzz"
 //########
+// O(n)
 
 function fizzBuzz(n) {
   let ans = [];

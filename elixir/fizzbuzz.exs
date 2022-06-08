@@ -13,6 +13,7 @@
 #  Input: n = 5
 # Output: ["1","2","Fizz","4","Buzz"
 ##########
+# O(n)
 
 defmodule Solution do
   @spec fizz_buzz(n :: integer) :: [String.t]

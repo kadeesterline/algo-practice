@@ -10,6 +10,7 @@
 // Input: (nums = [3, 2, 4]), (target = 6);
 // Output: [1, 2];
 //########
+//  O(n^2) time complexity
 
 var twoSum = function (nums, target) {
   let solution = [];
