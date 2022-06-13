@@ -14,8 +14,6 @@ function simpleArraySum(ar) {
   let total = 0;
   for (let i = 0; i < ar.length; i++) {
     total = ar[i] + total;
-    console.log("Total in loop", total);
   }
-  console.log("total at return", total);
   return total;
 }
