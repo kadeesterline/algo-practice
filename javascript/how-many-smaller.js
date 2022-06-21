@@ -13,7 +13,6 @@
 
 function smaller(nums) {
   let resultArray = new Array(nums.length).fill(0);
-  console.log(resultArray);
   for (let i = 0; i < nums.length; i++) {
     for (let j = i; j < nums.length; j++) {
       if (nums[i] > nums[j]) {
