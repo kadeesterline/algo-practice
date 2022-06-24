@@ -1,7 +1,7 @@
 // Seven ate 9
 //########
 //  Codewars
-//  https://www.codewars.com/kata/56fa3c5ce4d45d2a52001b3c/train/javascript
+//  https://www.codewars.com/kata/559f44187fa851efad000087
 //  Write a function that removes all 9's preceded and followed by 7's
 //########
 // Example
