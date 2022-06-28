@@ -16,25 +16,18 @@
 var reverse = function (x) {
   if (x < 0) {
     let num = x * -1;
-
     let str = num.toString();
-
     let array = [];
-
     for (let i = 0; i < str.length; i++) {
       if (str[i] !== 0) {
         array.unshift(str[i]);
       }
     }
-
     if (x < 0) {
       array.unshift("-");
     }
-
     let newStr = array.join("");
-
     let result = parseInt(newStr);
-
     if (result < -(2 ** 31) || result > 2 ** 31 - 1) {
       return 0;
     } else {
@@ -42,19 +35,14 @@ var reverse = function (x) {
     }
   } else {
     let str = x.toString();
-
     let array = [];
-
     for (let i = 0; i <= str.length; i++) {
       if (str[i] !== 0) {
         array.unshift(str[i]);
       }
     }
-
     let newStr = array.join("");
-
     let result = parseInt(newStr);
-
     if (result < -(2 ** 31) || result > 2 ** 31 - 1) {
       return 0;
     } else {
